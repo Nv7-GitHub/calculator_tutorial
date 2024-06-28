@@ -1,0 +1,40 @@
+.grid {
+    display: grid;
+    height: calc(100vh - 20px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.button {
+    font-size: 4em;
+    color: #000;
+    background-color: #aaa;
+}
+
+.button-operator {
+    background-color: #ffd56b;
+}
+
+.button:active {
+    background-color: #888;
+}
+
+.button-operator:active {
+    background-color: #ffe39c;
+}
+
+.button-clear {
+    background-color: #000;
+    color: #eee;
+}
+
+.button-clear:active {
+    background-color: #333;
+}
+
+.label {
+    font-size: 4em;
+    color: #000;
+    text-align: right;
+}
